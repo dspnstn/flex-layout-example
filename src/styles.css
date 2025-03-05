@@ -1,9 +1,12 @@
 .container {
     display: flex;
+    flex-direction: column;
 }
 .item {
-    padding: 10px;/*
-    border: 1px solid black;*/
+    padding: 10px;
+    border: 1px solid black;
+    height: fit-content;
+    width: fit-content;
 }
 .watch-img {
     height: 100%;
