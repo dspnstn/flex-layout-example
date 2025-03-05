@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+}
+.item {
+    padding: 10px;/*
+    border: 1px solid black;*/
+}
+.watch-img {
+    height: 100%;
+    width: 100%;
+}
+h2 {
+    float: right;
+    font-size: 1.5em;
+}
+.buy-button {
+    border-radius: 5px;
+    border: 1px;
+    width: 85%;
+    height: 25%;
+}
+.button-text {
+    font-size: 1.2em;
+}
+.compare-check {
+    background-color: aliceblue;
+}
