@@ -26,13 +26,15 @@ body {
     flex-direction: column;
     align-content: space-around;
 }
-.leftside {}
-
 .header {
     flex-basis: 37%;
 }
 
-.rightside {}
+.rightside {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
 .empty-middle {
     height: 30%;
 }*/
@@ -47,11 +49,8 @@ h2 {
 }
 
 .buy-button {
-    float: right;
     border-radius: 5px;
     border: 1px;
-    width: 85%;
-    height: 25%;
 }
 
 .button-text {
