@@ -18,16 +18,17 @@ body {
 }
 
 .item {
-    padding: 5px;
-    border: 1px solid black;
+    padding: 5px;/*
+    border: 1px solid black;*/
 }
 .middle-container {
     display: flex;
     flex-direction: column;
-    align-content: space-around;
+    align-items: space-around;    
+    flex-basis: 37%;
+    flex-shrink: 1;
 }
 .header {
-    flex-basis: 37%;
 }
 
 .rightside {
@@ -39,9 +40,6 @@ body {
     height: 30%;
 }*/
 
-.footer {
-    flex-basis: 37%;
-}
 
 h2 {
     float: right;
