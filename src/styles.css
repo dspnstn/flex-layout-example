@@ -8,6 +8,7 @@ body {
     line-height: 1.5;
     color: #373737;
 }
+
 .container {
     /*SOLVE THE BORDER ISSUE, MAKE IT FIT THE CONTENT*/
     border-radius: 10px;
@@ -18,17 +19,16 @@ body {
 }
 
 .item {
-    padding: 5px;/*
+    padding: 5px;
+    /*
     border: 1px solid black;*/
 }
+
 .middle-container {
     display: flex;
     flex-direction: column;
-    align-items: space-around;    
-    flex-basis: 37%;
+    align-items: space-around;
     flex-shrink: 1;
-}
-.header {
 }
 
 .rightside {
@@ -36,9 +36,10 @@ body {
     flex-direction: column;
     align-items: flex-end;
 }
+
 .empty-middle {
     height: 30%;
-}*/
+}
 
 
 h2 {
@@ -59,5 +60,6 @@ h2 {
     background-color: aliceblue;
 }
 
-.pick-up-points {
+@media screen and (min-width: 481px) {
+    background-color: #fff;
 }
