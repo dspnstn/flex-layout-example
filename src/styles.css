@@ -66,3 +66,36 @@ h2 {
 .compare-check {
     background-color: aliceblue;
 }
+
+/* xxs */
+@media (min-width: 320px) {
+    .container {
+      max-width: 320px;
+    }
+  }
+
+/* xs */
+@media (min-width: 475px) {
+    .container {
+      max-width: 475px;
+    }
+    
+    /*
+    .item {
+        font-size: 0.75;
+    }*/
+  }
+  
+  /* sm */
+  @media (min-width: 640px) {
+    .container {
+      max-width: 640px;
+    }
+  }
+  
+  /* md */
+  @media (min-width: 768px) {
+    .container {
+      max-width: 720px;
+    }
+  } 
