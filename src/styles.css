@@ -15,7 +15,10 @@ body {
     border: 1px solid grey;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: center;    
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto;
 }
 
 .item {
@@ -27,8 +30,8 @@ body {
 .middle-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: space-around;
-    flex-shrink: 1;
 }
 
 .rightside {
@@ -38,7 +41,7 @@ body {
 }
 
 .empty-middle {
-    height: 30%;
+    height: 50%;
 }
 
 
@@ -50,16 +53,14 @@ h2 {
 .buy-button {
     border-radius: 5px;
     border: 1px;
+    padding: 15px;
 }
 
 .button-text {
     font-size: 1.2em;
+    /*underine remove*/
 }
 
 .compare-check {
     background-color: aliceblue;
-}
-
-@media screen and (min-width: 481px) {
-    background-color: #fff;
 }
