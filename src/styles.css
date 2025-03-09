@@ -55,10 +55,13 @@ h2 {
     border: 1px;
     padding: 15px;
 }
+.button-link {    
+    text-decoration: none;
+    color: inherit;
+}
 
 .button-text {
     font-size: 1.2em;
-    /*underine remove*/
 }
 
 .compare-check {
